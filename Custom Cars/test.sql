@@ -1,5 +1,5 @@
-CREATE TABLE `customcars`.`carinfo` (`car_id` INT(20) NOT NULL AUTO_INCREMENT , `image` VARCHAR(100) NOT NULL , `model_name` VARCHAR(100) NOT NULL , `build_year` INT NOT NULL , `car_desc` VARCHAR(255) NOT NULL , PRIMARY KEY (`car_id`)) ENGINE = InnoDB;
-
+CREATE TABLE `customcars`.`carinfo` (`car_id` INT(20) NOT NULL AUTO_INCREMENT , `image` VARCHAR(100) NOT NULL , `model_name` VARCHAR(100) NOT NULL , `build_year` INT NOT NULL , `car_desc` VARCHAR(255) NOT NULL , PRIMARY KEY (`car_id`)) ENGINE = MongoDB;
+//InnoDB # MongoDB
 
 INSERT INTO `customcars`.`carinfo` (`image`, `model_name`, `build_year`, `car_desc`) VALUES
 ('black.jpg', 'Ford Mustang', 1970, 'Sleek black Charger with powerful engine'),
