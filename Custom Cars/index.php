@@ -33,7 +33,7 @@
                 <img src="image/black2.jpg" class="d-block w-100" alt="Charger 1970">
                 <div class="carousel-caption d-none d-md-block">
                   <h3>First slide label</h3>
-                  <p>Some representative placeholder content for the first slide.</p>
+                      <p>Some representative placeholder content for the first slide.</p>
                 </div>
               </div>
               <div class="carousel-item">
@@ -47,7 +47,7 @@
                 <img src="image/red.jpg" class="d-block w-100" alt="Toyota Corolla">
                 <div class="carousel-caption d-none d-md-block">
                   <h3>Third slide label</h3>
-                  <p>Some representative placeholder content for the third slide.</p>
+                      <p>Another representative placeholder content for the third slide.</p>
                 </div>
               </div>
             </div>
